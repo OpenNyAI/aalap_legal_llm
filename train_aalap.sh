@@ -1,0 +1,27 @@
+accelerate launch \
+    --config_file configs/deepspeed_config.yaml \
+    --num_processes 4 \
+    --num_machines 1 \
+    train.py \
+    --model_name "mistralai/Mistral-7B-v0.1" \
+    --dataset_name "opennyaiorg/aalap_instruction_dataset" \
+    --max_seq_len 16384 \
+    --max_steps 6500 \
+    --logging_steps 10 \
+    --eval_steps 50 \
+    --save_steps 50 \
+    --bf16 True \
+    --packing True \
+    --output_dir "trained_models" \
+    --per_device_train_batch_size 4 \
+    --gradient_accumulation_steps 2 \
+    --dataset_text_field "combined_input_prompt" \
+    --use_gradient_checkpointing True \
+    --learning_rate 5e-5  \
+    --lr_scheduler_type "constant" \
+    --weight_decay 0.01 \
+    --warmup_ratio 0.03 \
+    --use_flash_attn True \
+    --use_peft_lora True \
+    --lora_r 8 \
+    --lora_alpha 16

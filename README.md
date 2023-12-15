@@ -33,7 +33,7 @@ All the hyperparameters are set in the `train_aalap.sh` file. To start the fine-
 bash train_aalap.sh
 ```
 ### 4-bit LORA fine-tuning for Aalap
-For experimental purposes, a notebook is provided for 4-bit LORA fine-tuning here.
+For experimental purposes, a notebook is provided for 4-bit LORA fine-tuning [here](notebooks/Llama2_4bit_finetune.ipynb).
 
 ***Note**: Training all layers with LORA has proven effective, offering comparable performance to fully fine-tuned models in less time and resources.*
 

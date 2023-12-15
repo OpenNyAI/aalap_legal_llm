@@ -8,7 +8,7 @@ We have generated responses from GPT-3.5, Mistral 7B and Aalap. We then use GPT-
 First you have to generate a csv file of test data with responses from respective models. For this, we have provided a script `aalap_test_data_response_generation.py`. This will create a csv.
 Before you run it you have to create a TGI deployment of Aalap and Mistral. 
 For TGI deployment steps refer to Main readme. 
-You can run it as follows:
+
 ```
 python aalap_test_data_response_generation.py
 ```

@@ -53,6 +53,7 @@ The aalap model was evaluated using three methodologies.
 1.  Using GPT4 as an evaluator on Aalap test data
 2. Using Legalbench data
 3. Using All India Bar Exam (AIBE) data
+
 Please refer to the [paper]() for details. Evaluation scripts used to assess the model are included [here](evaluation/README.md).
 
 ***Note:** Some evaluation scripts utilize a TGI server to generate responses for different models such as Aalap or Mistral.*

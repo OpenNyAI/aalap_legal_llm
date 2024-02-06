@@ -3,7 +3,7 @@
 Aalap (Assistant for Legal and Paralegal functions in India) is an instructions fine-tuned version of Mistral 7B that can perform specific legal tasks in the Indian context. The details about which specific legal tasks Aalap can perform and training dataset can be found [here](https://huggingface.co/datasets/opennyaiorg/aalap_instruction_dataset).
 
 This research model intends to show that we can develop tasks for the legal domain and teach LLMs to do them at an affordable cost.
-The details about the dataset, model training, and evaluations can be found in the [paper](http://arxiv.org/abs/2402.01758). Aalap training & evaluation code can be found on the [repo](https://github.com/OpenNyAI/aalap_legal_llm). 
+The details about the dataset, model training, and evaluations can be found in the [paper](http://arxiv.org/abs/2402.01758). Aalap training & evaluation code can be found in this repo. 
 The performance of Aalap is better than gpt-3.5-turbo in 31% of our test data and obtains an equivalent score in 34% of the test data as evaluated by GPT4.
 
 ## What is Aalap’s intended use(s)?

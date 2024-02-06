@@ -9,8 +9,6 @@ The performance of Aalap is better than gpt-3.5-turbo in 31% of our test data an
 ## What is Aalap’s intended use(s)?
 From the evaluation results, we can conclude that, for the tasks that are present in the training data, Aalap is performing comparably to ‘gpt-3.5-turbo’. But for the AIBE exam and Legalbench data, Aalap is not doing any better than the Mistral 7B base model. Hence, Aalap is not a general-purpose India legal LLM but can do well under the constraints of specific legal tasks.
 
-## Try hosted Aalap
-You can try the hosted version of Aalap [here]().
 
 # Host your own version of Aalap
 ## Environment Set-up 

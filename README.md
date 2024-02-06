@@ -60,4 +60,12 @@ Please refer to the [paper]() for details. Evaluation scripts used to assess the
 If you use this model in your work, please cite the following paper:
 
 ```bibtex
+@misc{tiwari2024aalap,
+      title={Aalap: AI Assistant for Legal & Paralegal Functions in India}, 
+      author={Aman Tiwari and Prathamesh Kalamkar and Atreyo Banerjee and Saurabh Karn and Varun Hemachandran and Smita Gupta},
+      year={2024},
+      eprint={2402.01758},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY}
+}
 ```
